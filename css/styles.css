@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: dynapuf;
+    src: url(../fonts/dynapuffSemiBold.ttf);
+}
+@font-face {
+    font-family: dynapuff;
+    src: url(../fonts/dynapuffRegular.ttf);
+}
+@font-face {
+    font-family: dynapufff;
+    src: url(../fonts/dynapuffMedium.ttf);
+}
+@font-face {
+    font-family: readexPro;
+    src: url(../fonts/ReadexPro-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/naranjas2.png);
+}
+
+/*.fondo {
+    background-image: url(images/fondop.jpg);
+} */ 
+.navbar-nav {
+    font-family: 'dynapuff';
+}
+.title{
+    font-family: 'dynapuf';
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px 5px #ecb04f;
+}
+.text-primario {
+    font-family: 'dynapuff';
+}
+.text-cuerpo {
+    font-family: 'readexPro';
+}
+#navlineal{
+    background-color: rgb(6, 34, 6);
+}
+.btn{
+    background-color: rgb(6, 34, 6);
+}
+.nav-link{
+    color: #EE9F22;
+}
+.card{
+    box-shadow: 4px 4px 5px #f0d7af;
+}
+.footer{
+    font-family: 'dynapuff';
+    background-color:  rgb(6, 34, 6);
+}
+.miguel:hover{
+    transition: transform 0.3s;
+    transform:scale(1.1);
+}
