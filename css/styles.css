@@ -26,6 +26,9 @@ body {
 /*.fondo {
     background-image: url(images/fondop.jpg);
 } */ 
+.bg-dark {
+    background-color: #04290c!important;
+}
 .navbar-nav {
     font-family: 'dynapuff';
 }
