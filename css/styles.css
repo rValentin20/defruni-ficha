@@ -41,6 +41,9 @@ body {
 .text-primario {
     font-family: 'dynapuff';
 }
+.nav-link:hover{
+    color: #539e3d;
+}
 .text-cuerpo {
     font-family: 'readexPro';
 }
@@ -49,10 +52,9 @@ body {
 }
 .btn{
     background-color: rgb(6, 34, 6);
-}
-.nav-link{
     color: #EE9F22;
 }
+
 .card{
     box-shadow: 4px 4px 5px #f0d7af;
 }
@@ -63,4 +65,60 @@ body {
 .miguel:hover{
     transition: transform 0.3s;
     transform:scale(1.1);
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mouse-btn {
+    margin: 10px auto;
+    width: 40px;
+    height: 80px;
+    border: 3px solid rgba(238, 177, 46, 0.918);
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  .mouse-scroll {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(238, 144, 37);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(230, 139, 4, 0.973);
+    box-shadow: inset 0px 25px 7px  rgba(10, 141, 223, 0.277),;
+    margin: auto;
+    animation: scrolling13 1s linear infinite;
+  }
+  .mouse-scroll::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 6px;
+    height: 0;
+    width: 0,5rem;
+    border: 5px solid #539e3d;
+    border-radius: 50% 0 50% 0;
+}
+  @keyframes scrolling13 {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+  }
+.buttonDowm{
+    text-decoration: none;
+    text-align: center;
+    color: #EE9F22;
+}
+.arriba:hover{
+    color: rgb(74, 158, 36);
 }
